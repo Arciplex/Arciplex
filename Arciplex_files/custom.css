@@ -2,3 +2,33 @@
 .h_iframe        {position:relative;}
 .h_iframe .ratio {display:block;width:100%;height:auto;}
 .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+.cr {
+  width: 200px;
+  padding: 16px;
+  position: absolute;
+  text-align: center;
+  color: #f0f0f0;
+  z-index: 999;
+}
+
+.cr-sticky {
+  position: fixed;
+}
+
+.cr-top    { top: 25px; }
+.cr-bottom { bottom: 25px; }
+.cr-left   { left: -50px; }
+.cr-right  { right: -50px; }
+
+.cr-top.cr-left,
+.cr-bottom.cr-right {
+  transform: rotate(-45deg);
+}
+
+.cr-top.cr-right,
+.cr-bottom.cr-left {
+  transform: rotate(45deg);
+}
+
+.cr-orange    { background-color: #e82; }
