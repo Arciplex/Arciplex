@@ -32,3 +32,7 @@
 }
 
 .cr-orange    { background-color: #e82; }
+
+#logo { float: left; }
+#nav { width: 1500px; /* Too large, just an example */ }
+.navigation { float: left; }
