@@ -34,7 +34,7 @@
 .cr-orange    { background-color: #e82; }
 
 .span-logo {
-display: none;
+display: block;
 vertical-align: top;
 height: 50px;
 width: 152px;
