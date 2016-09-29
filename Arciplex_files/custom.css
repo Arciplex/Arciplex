@@ -34,5 +34,6 @@
 .cr-orange    { background-color: #e82; }
 
 #logo {  
+  margin-top:.5em;
   width: 50px;
 }
