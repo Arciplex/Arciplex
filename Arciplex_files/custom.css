@@ -32,3 +32,11 @@
 }
 
 .cr-orange    { background-color: #e82; }
+
+.span-logo {
+display: inline-block;
+vertical-align: top;
+height: 118px;
+width: 152px;
+}
+
